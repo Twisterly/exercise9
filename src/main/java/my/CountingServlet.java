@@ -15,7 +15,7 @@ public class CountingServlet extends HttpServlet {
     private static File file;
 
     public void init() {
-        file = new File("D:\\IT\\counterSaver.txt");
+        file = new File("D:\\counterSaver.txt");
         try {
             file.createNewFile();
         } catch (IOException e) {
